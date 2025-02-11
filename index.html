@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore Data</title>
+    <script type="module" src="scripts.js"></script>
+</head>
+<body>
+<h2>Firestore Data:</h2>
+<ul id="data-list"></ul>
+
+<h2>Add Data:</h2>
+<input type="text" id="doc-id" placeholder="Document ID">
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<input type="tel" id="phone" placeholder="Phone">
+<input type="number" id="competency" placeholder="Competency (0-9)" min="0" max="9">
+<button onclick="addData()">Add to Firestore</button>
+
+
+</body>
+
+</html>
